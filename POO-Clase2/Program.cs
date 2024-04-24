@@ -1,4 +1,6 @@
 ﻿using POO_Clase2.Ejercicio_1;
+using POO_Clase2.Ejercicio_2;
+using POO_Clase2.Ejercicio_3;
 
 namespace POO_Clase2
 {
@@ -25,6 +27,16 @@ namespace POO_Clase2
             // Agregar la propiedad "Refactorizada" que debe ser un booleano unicamente para las PcEscritorio
             // Instanciar una notebook y una pcEscritorio
             // Imprimir por pantalla las propiedades de cada uno
+
+            Notebook notebook = new Notebook();
+
+            notebook.Encender();
+            notebook.Apagar();
+
+            PcEscritorio pcEscritorio = new PcEscritorio();
+
+            pcEscritorio.Encender();
+            pcEscritorio.Apagar();
             #endregion
 
 
@@ -35,6 +47,10 @@ namespace POO_Clase2
             // Implementar los metodos para que cada figura calcule el area y el perimetro como corresponda
             // Instanciar las clases e imprimir los valores del area y el perimetro para cada figura
             // Mostrar los resultados por consola
+
+            Rectangulo rectangulo = new Rectangulo();
+
+            Circulo circulo = new Circulo();
             #endregion
         }
     }
